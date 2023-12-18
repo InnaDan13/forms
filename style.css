@@ -1,0 +1,29 @@
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  font-family: "Shantell Sans", cursive;
+
+}
+
+h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+input {
+  display: inline-block;
+  padding: 3px;
+  margin: 10px;
+}
+
+button {
+  background-color: lightgreen;
+  width: 350px;
+  margin: 10px 0;
+  font-style: italic;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}

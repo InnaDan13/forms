@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form>
+      <h2>Register form</h2>
+
+      <fieldset >
+        <legend>Osobysti dani</legend>
+        <label> Imie <input type="text" name="username" autofocus />
+        </label>
+        <label> Skrzynka pocztowa <input type="email" placeholder="example@email.com" name="email"/>
+        </label>
+        <label> Data urodzin <input type="date" placeholder="qwerty1234" name="password" />
+        </label>
+      </fieldset>
+
+      <fieldset class="gender" >
+        <legend>Gender</legend>
+        <label>
+          <input type="radio" value="male" name="gender" />Male
+        </label>
+        <label>
+          <input type="radio" value="female" name="gender" />Female
+        </label>
+        <label>
+          <input type="radio" value="female" name="gender" />Other
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional settings</legend>
+        <label>
+          <input type="checkbox" name="newsletter" /> Do want to sign for
+          newsletter?
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Choose a category</legend>
+        <select name="" id="">
+          <option value="Programming">Programming</option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>How did you know about us?</legend>
+        <label>
+          <input type="radio" value="male" name="gender" />
+        </label>
+        <label>
+          Social media
+          <input type="radio" value="female" name="gender" />
+        </label>
+        <label>
+          Friend's advice
+          <input type="radio" value="female" name="gender" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Describe your thoughts</legend>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
