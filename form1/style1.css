@@ -23,7 +23,10 @@ fieldset {
 label {
     padding: 10px;
 }
+ textarea {
 
+    max-width: 330px;
+ }
 button {
     background-color: rgb(54, 151, 54);
     width: 350px;
